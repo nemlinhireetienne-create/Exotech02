@@ -10,3 +10,11 @@ const montantStylos = prixStylo * quantiteStylos;
 
 3. Calcul du montant total
 const montantTotal = montantCahiers + montantStylos;
+
+4. Vérification du budget
+let resultatBudget;
+if (montantTotal <= budgetClient) {
+  resultatBudget = "Budget suffisant";
+} else {
+  resultatBudget = "Budget insuffisant";
+}
