@@ -7,3 +7,6 @@ const quantiteStylos = 3;
 // 2. Calcul des montants des cahiers et stylos
 const montantCahiers = prixCahier * quantiteCahiers;
 const montantStylos = prixStylo * quantiteStylos;
+
+3. Calcul du montant total
+const montantTotal = montantCahiers + montantStylos;
