@@ -24,3 +24,8 @@ console.log("Montant des cahiers :", montantCahiers, "FCFA");
 console.log("Montant des stylos :", montantStylos, "FCFA");
 console.log("Montant total :", montantTotal, "FCFA");
 console.log("Résultat :", resultatBudget);
+
+// 6. Boucle de 1 à 5
+for (let i = 1; i <= 5; i++) {
+  console.log("Achat numéro " + i);
+}
